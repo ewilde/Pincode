@@ -26,7 +26,7 @@ namespace PincodeBinding {
 	public partial interface CPLockController { // : UITextFieldDelegate {
 
 		[Export ("delegate", ArgumentSemantic.Assign)]
-		IntPtr @Delegate { get; set; }
+		CPLockControllerDelegate @Delegate { get; set; }
 
 		[Export ("title", ArgumentSemantic.Copy)]
 		string Title { get; set; }
@@ -42,5 +42,8 @@ namespace PincodeBinding {
 
 		[Export ("hideCode")]
 		bool HideCode { get; set; }
+
+		[Export ("retry")]
+		bool Retry { get; set; }
 	}
 }
