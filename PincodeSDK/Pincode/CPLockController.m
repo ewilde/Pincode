@@ -46,13 +46,20 @@
 @implementation CPLockController
 @synthesize delegate,style,passcode,prompt,hiddenField,navigationItem,promptLabel,subPromptLabel,tempString,retry,title,hideCode;
 
-- (id)initWithStyle:(CPLockControllerStyle)theStyle {
+- (id)init {
 	if(self = [super init]){
-		self.style = theStyle;
 		self.retry = NO;
 		self.tempString = [NSMutableString string];
 		self.hideCode = YES;
 		
+	}
+	
+	return self;
+}
+
+- (id)initWithStyle:(CPLockControllerStyle)theStyle {
+	if(self = [self init]){
+		self.style = theStyle;		
 	}
 	
 	return self;
