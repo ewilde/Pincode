@@ -1,0 +1,245 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BB1335017BFEE4F004CADC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB1334F17BFEE4F004CADC8 /* Foundation.framework */; };
+		5BB1335F17BFEECD004CADC8 /* CPLockController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB1335E17BFEECD004CADC8 /* CPLockController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5BB1334A17BFEE4F004CADC8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5BB1334C17BFEE4F004CADC8 /* libPincode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPincode.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BB1334F17BFEE4F004CADC8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5BB1335317BFEE50004CADC8 /* Pincode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pincode-Prefix.pch"; sourceTree = "<group>"; };
+		5BB1335D17BFEECD004CADC8 /* CPLockController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPLockController.h; sourceTree = "<group>"; };
+		5BB1335E17BFEECD004CADC8 /* CPLockController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPLockController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BB1334917BFEE4F004CADC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB1335017BFEE4F004CADC8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BB1334317BFEE4F004CADC8 = {
+			isa = PBXGroup;
+			children = (
+				5BB1335117BFEE4F004CADC8 /* Pincode */,
+				5BB1334E17BFEE4F004CADC8 /* Frameworks */,
+				5BB1334D17BFEE4F004CADC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BB1334D17BFEE4F004CADC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BB1334C17BFEE4F004CADC8 /* libPincode.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BB1334E17BFEE4F004CADC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BB1334F17BFEE4F004CADC8 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BB1335117BFEE4F004CADC8 /* Pincode */ = {
+			isa = PBXGroup;
+			children = (
+				5BB1335D17BFEECD004CADC8 /* CPLockController.h */,
+				5BB1335E17BFEECD004CADC8 /* CPLockController.m */,
+				5BB1335217BFEE50004CADC8 /* Supporting Files */,
+			);
+			path = Pincode;
+			sourceTree = "<group>";
+		};
+		5BB1335217BFEE50004CADC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BB1335317BFEE50004CADC8 /* Pincode-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BB1334B17BFEE4F004CADC8 /* Pincode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BB1335A17BFEE50004CADC8 /* Build configuration list for PBXNativeTarget "Pincode" */;
+			buildPhases = (
+				5BB1334817BFEE4F004CADC8 /* Sources */,
+				5BB1334917BFEE4F004CADC8 /* Frameworks */,
+				5BB1334A17BFEE4F004CADC8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pincode;
+			productName = Pincode;
+			productReference = 5BB1334C17BFEE4F004CADC8 /* libPincode.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BB1334417BFEE4F004CADC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Edward Wilde";
+			};
+			buildConfigurationList = 5BB1334717BFEE4F004CADC8 /* Build configuration list for PBXProject "Pincode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5BB1334317BFEE4F004CADC8;
+			productRefGroup = 5BB1334D17BFEE4F004CADC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BB1334B17BFEE4F004CADC8 /* Pincode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BB1334817BFEE4F004CADC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB1335F17BFEECD004CADC8 /* CPLockController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5BB1335817BFEE50004CADC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5BB1335917BFEE50004CADC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BB1335B17BFEE50004CADC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Pincode.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pincode/Pincode-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5BB1335C17BFEE50004CADC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Pincode.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pincode/Pincode-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BB1334717BFEE4F004CADC8 /* Build configuration list for PBXProject "Pincode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB1335817BFEE50004CADC8 /* Debug */,
+				5BB1335917BFEE50004CADC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BB1335A17BFEE50004CADC8 /* Build configuration list for PBXNativeTarget "Pincode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB1335B17BFEE50004CADC8 /* Debug */,
+				5BB1335C17BFEE50004CADC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BB1334417BFEE4F004CADC8 /* Project object */;
+}
